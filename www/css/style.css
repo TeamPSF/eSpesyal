@@ -1,0 +1,76 @@
+.button .icon{
+	color: #131111;
+}
+
+#pic{
+	width: 100px;
+	
+	}/* Empty. Add your own CSS if you like */
+
+#content{
+	background-image: url('../img/backgrounds.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+h2{
+	color: #FF6D02;
+}
+
+#desc{
+	background-color: antiquewhite;
+	margin-top: 1%;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+#logo{
+	width: 70%;
+	height: 40%;
+	background-color: antiquewhite;
+	margin-left: 15%;
+}
+
+#data{
+	background-color: beige;
+}
+
+ion-tabs.tabs-color-active-energized .tab-item.tab-item-active, ion-tabs.tabs-color-active-energized .tab-item.active, ion-tabs.tabs-color-active-energized .tab-item.activated {
+    color: #ffc900;
+    background-color: #ef473a;
+}
+
+.item {
+    border-color: aliceblue;
+    background-color: beige;
+    color: #656565;
+}
+.row{
+	background-color: beige;
+}
